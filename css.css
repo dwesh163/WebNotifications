@@ -1,0 +1,54 @@
+.alert {
+    color: #856404;
+    background-color: #fff3cd;
+    position: relative;
+    padding: .75rem 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    border: 3px solid #ffeeba;
+    width: 100%;
+}
+
+.alert-box {
+    position: absolute;
+    right: 0;
+    width: 22%;
+    padding: 12px;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.alert button {
+    cursor: pointer;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.alert button:hover {
+    color: #000;
+
+}
+
+@media (max-width: 1190px) {
+    .alert-box {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .alert-box {
+        width: 100%;
+    }
+}
