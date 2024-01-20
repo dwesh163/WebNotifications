@@ -8,12 +8,13 @@
     border-radius: .25rem !important;
     border: 3px solid #ffeeba !important;
     width: 100% !important;
+    z-index: 12 !important;
 }
 
 .alert-box {
     position: absolute !important;
     right: 0 !important;
-    width: 22% !important;
+    width: 30% !important;
     padding: 12px !important;
     height: 100vh !important;
     overflow: scroll !important;
