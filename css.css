@@ -3,12 +3,12 @@
     background-color: #fff3cd !important;
     position: relative !important;
     padding: .75rem 1.25rem !important;
-    padding-right: 1.25rem !important;
+    padding-right: 2.3rem !important;
     margin-bottom: 1rem !important;
     border-radius: .25rem !important;
     border: 3px solid #ffeeba !important;
     width: 100% !important;
-    z-index: 12 !important;
+    z-index: 1 !important;
 }
 
 .alert-box {
@@ -94,7 +94,7 @@
 
 @media (max-width: 1190px) {
     .alert-box {
-        width: 40% !important;
+        width: 54% !important;
     }
 }
 
